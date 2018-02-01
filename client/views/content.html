@@ -1,0 +1,19 @@
+<template name="content">
+  <div class="container sigs">
+    <div class="row">
+      {{> signature}}
+    </div>
+  </div>
+  {{> sigForm}}
+  {{> imageSelector}}
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12 text-center">
+        <div class="btn btn-lg btn-block btn-success" data-toggle="modal" data-target="#instructions">
+          Ok, I'm done... what now?
+        </div>
+      </div>
+    </div>
+  </div>
+  {{> instructionModal}}
+</template>

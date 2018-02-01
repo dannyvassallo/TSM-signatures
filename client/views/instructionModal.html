@@ -1,0 +1,28 @@
+<template name="instructionModal">
+  <div class="modal fade" id="instructions" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+          <h4 class="modal-title" id="myModalLabel">What to do next</h4>
+        </div>
+        <div class="modal-body">
+          <h4 class="instruction-header">1) Highlight & Copy</h4>
+          <img class="full-w instruction-image" loop=infinite src="https://s3-us-west-2.amazonaws.com/vydiaemail/copy.gif">
+          <pre>Simply highlight the signature from the bottom up to the top and copy it.</pre>
+          <h4 class="instruction-header">2) Goto Gmail Settings</h4>
+          <img class="full-w instruction-image" loop=infinite src="https://s3-us-west-2.amazonaws.com/vydiaemail/settings.gif">
+          <pre>In the top right corner of gmail find the gear icon. Click it and open 'settings'.</pre>
+          <h4 class="instruction-header">3) Save as a signature</h4>
+          <img class="full-w instruction-image" loop=infinite src="https://s3-us-west-2.amazonaws.com/vydiaemail/signature.gif">
+          <pre>Go to the 'signature' input in you settings, paste the generated signature in, and save your settings. You are done.</pre>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-primary" data-dismiss="modal">Got it</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</template>

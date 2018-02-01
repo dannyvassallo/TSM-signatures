@@ -1,0 +1,65 @@
+<template name="signature">
+  <div id="signature" class="col-xs-12">
+    <table style="font-family: arial; font-size: 12px;">
+      {{#if titleInfo}}
+        <tbody>
+          <tr>
+            <td><img id="sigImage" style="width: 103px; margin: 0 5px;" src="https://s3.amazonaws.com/tsm-signature/tsm-sig.jpg"></td>
+            <td>
+              {{#if titleInfo}}
+                <p style="margin-bottom: 0; margin-top: 0; line-height: 13px;">
+                  <b style="color: rgb(51,51,51);">{{myName}}, </b> <a style="text-decoration: none; color: rgb(78,75,76);">{{myTitle}}</a>
+                </p>
+                <p style="margin-bottom: 0; margin-top: 0;">
+                  <a style="text-decoration: none; color: rgb(78,75,76);">Trendsetter Media & Marketing, LLC</a>
+                </p>
+              {{/if}}
+              {{#if officeNumber}}
+                <p style="margin-bottom: 0; margin-top: 0; line-height: 13px;">
+                  <span style="color: rgb(71, 71, 71);">Phone: </span> <a style="text-decoration: none; color: rgb(78,75,76);" href="tel:{{officeNumber}}" target="_blank">{{officeNumber}}</a>
+                </p>
+              {{/if}}
+              {{#if faxNumber}}
+                <p style="margin-bottom: 0; margin-top: 0; line-height: 13px;">
+                  <span style="color: rgb(71, 71, 71);">Fax: </span> <a style="text-decoration: none; color: rgb(78,75,76);" href="tel:{{faxNumber}}" target="_blank">{{faxNumber}}</a>
+                </p>
+              {{/if}}
+              {{#if mobileNumber}}
+                <p style="margin-bottom: 0; margin-top: 0; line-height: 13px;">
+                  <span style="color: rgb(71, 71, 71);">Mobile: </span> <a style="text-decoration: none; color: rgb(78,75,76);" href="tel:{{mobileNumber}}" target="_blank">{{mobileNumber}}</a>
+                </p>
+              {{/if}}
+              {{#if skypeName}}
+                <p style="margin-bottom: 0; margin-top: 0; line-height: 13px;">
+                  <span style="color: rgb(71, 71, 71);">Skype: </span> <a style="text-decoration: none; color: rgb(78,75,76);">{{skypeName}}</a>
+                </p>
+              {{/if}}
+              {{#if ichatName}}
+                <p style="margin-bottom: 0; margin-top: 0; line-height: 13px;">
+                  <span style="color: rgb(71, 71, 71);">iChat: </span> <a style="text-decoration: none; color: rgb(78,75,76);">{{ichatName}}</a>
+                </p>
+              {{/if}}
+              <p style="margin-bottom: 0; margin-top: 0; line-height: 13px;">
+                <span style="color: rgb(71, 71, 71);">Website: </span> <a style="text-decoration: none; color: rgb(78,75,76);" href="http://trendsettermarketing.net/brands" target="_blank">Brands</a> | <a style="text-decoration: none; color: rgb(78,75,76);" href="http://trendsettermarketing.net" target="_blank">Music</a>
+              </p>
+              <p style="margin-bottom: 0; margin-top: 0px; line-height: 13px; display: inline-block">
+                {{#if linkedIn}}
+                  <a href="{{linkedIn}}" target="_blank"><img style="height: 16px; width: 16px; margin-top: 3px; padding-right: 1px; border-radius: 4px; box-style: none !important; box-sizing: content-box !important;"  width="16px" height="16px" src="https://s3-us-west-2.amazonaws.com/vydiaemail/linkedin.jpg"></a>
+                {{/if}}
+                <a href="https://facebook.com/trendsettermm" target="_blank"><img style="height: 16px; width: 16px; margin-top: 3px; padding-right: 1px; border-radius: 4px; box-style: none !important; box-sizing: content-box !important;" width="16px" height="16px" src="https://s3-us-west-2.amazonaws.com/vydiaemail/facebooklogo.jpg"></a>
+                <a href="https://twitter.com/trendsettermm" target="_blank"><img style="height: 16px; width: 16px; margin-top: 3px; padding-right: 1px; border-radius: 4px; box-style: none !important; box-sizing: content-box !important;" width="16px" height="16px" src="https://s3-us-west-2.amazonaws.com/vydiaemail/twitter.jpg"></a>
+                <a href="https://instagram.com/trendsettermm/" target="_blank"><img style="height: 16px; width: 16px; margin-top: 3px; padding-right: 1px; border-radius: 4px; box-style: none !important; box-sizing: content-box !important;" width="16px" height="16px" src="https://s3-us-west-2.amazonaws.com/vydiaemail/instagram.jpg"></a>
+              </p>
+            </td>
+          </tr>
+        </tbody>
+      {{else}}
+        <tbody>
+          <tr>
+            <td class="empty">Fill in the fields and your signature will appear here.</td>
+          </tr>
+        </tbody>
+      {{/if}}
+    </table>
+  </div>
+</template>

@@ -1,0 +1,102 @@
+.sigs{
+  margin-top: 40px;
+}
+
+#signature{
+  table{
+    // margin: 0 auto;
+  }
+}
+
+.empty{
+  height: 100px;
+}
+
+form{
+  margin-top: 40px;
+}
+
+.full-w{
+  width: 100%;
+}
+
+.instruction-image{
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.instruction-header{
+  margin-top: 20px;
+}
+
+pre {
+  white-space: pre-wrap;       /* Since CSS 2.1 */
+  white-space: -moz-pre-wrap;  /* Mozilla, since 1999 */
+  white-space: -pre-wrap;      /* Opera 4-6 */
+  white-space: -o-pre-wrap;    /* Opera 7 */
+  word-wrap: break-word;       /* Internet Explorer 5.5+ */
+}
+
+a {
+  color: #fff;
+}
+a:hover {
+  background: #fff !important;
+}
+// original
+$original: #16AF91;
+a[data-image="https://s3.amazonaws.com/tsm-signature/tsm-sig.jpg"] {
+  background: $original;
+}
+a[data-image="https://s3.amazonaws.com/tsm-signature/tsm-sig.jpg"]:hover {
+  color: $original;
+  border-color: $original;
+}
+// halloween
+$halloween: #BB6005;
+a[data-image="https://s3.amazonaws.com/tsm-signature/tsm-sig-halloween.jpg"] {
+  background: $halloween;
+}
+a[data-image="https://s3.amazonaws.com/tsm-signature/tsm-sig-halloween.jpg"]:hover {
+  color: $halloween;
+  border-color: $halloween;
+}
+// fall
+$fall: #B64F3D;
+a[data-image="https://s3.amazonaws.com/tsm-signature/tsm-sig-fall.jpg"] {
+  background: $fall;
+}
+a[data-image="https://s3.amazonaws.com/tsm-signature/tsm-sig-fall.jpg"]:hover {
+  color: $fall;
+  border-color: $fall;
+}
+// Hearts
+$hearts: #EDB0CF;
+a[data-image="https://s3.amazonaws.com/tsm-signature/tsm-sig-feb-hearts.jpg"] {
+  background: $hearts;
+}
+a[data-image="https://s3.amazonaws.com/tsm-signature/tsm-sig-feb-hearts.jpg"]:hover {
+  color: $hearts;
+  border-color: $hearts;
+}
+// Feb Simples
+$febSimple: #90C7AA;
+a[data-image="https://s3.amazonaws.com/tsm-signature/tsm-sig-feb-simple.jpg"] {
+  background: $febSimple;
+}
+a[data-image="https://s3.amazonaws.com/tsm-signature/tsm-sig-feb-simple.jpg"]:hover {
+  color: $febSimple;
+  border-color: $febSimple;
+}
+
+// Feb Simples
+$marchSimple: #009a49;
+a[data-image="https://s3.amazonaws.com/tsm-signature/tsm-sig-march-simple.jpg"] {
+  background: $marchSimple;
+}
+a[data-image="https://s3.amazonaws.com/tsm-signature/tsm-sig-march-simple.jpg"]:hover {
+  color: $marchSimple;
+  border-color: $marchSimple;
+}
