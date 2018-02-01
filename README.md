@@ -3,8 +3,8 @@
 ###Getting started
 
 ```
-git clone https://github.com/dannyvassallo/vydia-sigs.git
-cd vydia-sigs
+git clone https://github.com/mqschwanda/TSM-signatures.git
+cd TSM-signatures
 meteor run
 ```
 
